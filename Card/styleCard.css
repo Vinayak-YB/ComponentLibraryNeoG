@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+    margin: 20px;
+
+}
+.page{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card1{
+    margin: 1px;
+}
+.Card-container1{
+    height: 350px;
+    width: 350px;
+    border-radius: 8px;
+    margin-left:10px;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+.image1{
+    width: 350px;
+    height: 175px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.head1{
+    padding: none;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+.sub-head1{
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    color: gray;
+    font-weight:400;
+}
+.para1{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-top: 0;
+    flex-grow: 1;
+}
+.bottom1{
+    display: flex;
+    margin-left: 15px;
+    gap: 8px;
+    margin-top: 0px;
+}
+.read1{
+    background-color: white;
+    border: none;
+    color: #673ab7;
+    font-weight: bolder;
+    padding: 7PX;
+    
+}
+.bookmark1{
+    background-color: white;
+    border: none;
+    color: #673ab7;
+    font-weight: bolder;
+    padding: 7PX;
+}
+.icons1{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    margin-right: 25px;
+    margin-top: 5px;
+
+}
+
+.read1:hover{
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 7PX;
+}
+
+.bookmark1:hover{
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 7PX;
+}
+/* First Card*/
+.offer2{
+    width: fit-content;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #673ab7;
+    color: rgb(241, 229, 229);
+    position: relative;
+    left: 245px;
+    bottom: 350px;
+}
+/* Second Card*/
+.offer3{
+    position: relative;
+    left: 320px;
+    bottom: 350px;
+}
+/* Third Card*/
+.image3{
+    width: 350px;
+    height: 175px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    opacity: 15%;
+}
+.offer4{
+    width: fit-content;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #673ab7;
+    color: rgb(241, 229, 229);
+    position: relative;
+    left: 130px;
+    bottom: 250px;
+}
+/* Fourth Card */
+.Card-container2{
+    height: 170px;
+    width: 350px;
+    border-radius: 8px;
+    margin-left:10px;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+/* Fifth Card */
+
+.Card-container5{
+    height: 160px;
+    width: 330px;
+    border-radius: 8px;
+    margin-left:10px;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+.image5{
+    width: 150px;
+    height: 110px;
+    border-top-left-radius: 8px;
+}
+.head5{
+    padding: none;
+    margin-top: 28px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+.sub-head5{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight:400;
+}
+.para5{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-top: 0;
+    flex-grow: 1;
+}
+.bottom5{
+    display: flex;
+    margin-left: 15px;
+    gap: 8px;
+    margin-top: 10px;
+}
+.read5{
+    background-color: white;
+    border: none;
+    color: #673ab7;
+    font-weight: bolder;
+    padding: 7PX;
+    
+}
+.bookmark5{
+    background-color: white;
+    border: none;
+    color: #673ab7;
+    font-weight: bolder;
+    padding: 7PX;
+}
+.icons5{
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    margin-right: 25px;
+    margin-top: 5px;
+
+}
+
+.read5:hover{
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 7PX;
+}
+
+.bookmark5:hover{
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 7PX;
+}
+.top5{
+    display:flex;
+}
