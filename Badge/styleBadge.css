@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+    margin: 20px;
+}
+.badges{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.b1{
+    color: honeydew;
+    background-color: goldenrod;
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 50%;
+}
+.b2{
+    color: honeydew;
+    background-color: crimson;
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    
+}
+.b3{
+    color: honeydew;
+    background-color: rgb(64, 170, 22);
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 50%;
+}
+.b4{
+    color: honeydew;
+    background-color: rgb(28, 79, 189);
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 30%;
+}
+.bot{
+    display: flex;
+}
+.b-1{
+    color: honeydew;
+    background-color: goldenrod;
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+.b-4{
+    color: honeydew;
+    background-color: rgb(28, 79, 189);
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 30%;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
+.b-2{
+    color: honeydew;
+    background-color: crimson;
+    width:fit-content;
+    margin: 10px;
+    padding: 4px;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+.iconNo{
+    width: fit-content;
+    font-weight: 600;
+    position: relative;
+    right: 35px;
+    bottom: 5px;
+    color: honeydew;
+}
+.iconNo1{
+    width: fit-content;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    background-color: crimson;
+    padding: 3px;
+    border-radius: 20%;
+    color: honeydew;
+}
+.iconNo2{
+    width: fit-content;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+    right: 60px;
+    background-color: purple;
+    padding: 3px;
+    border-radius: 20%;
+    color: honeydew;
+}
+.Avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.AvatarBox{
+    width: 50px;
+    height: 50px;
+    border: 2px solid honeydew;
+
+}
+.iconNo4{
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    background-color: rgb(28, 79, 189);
+    padding: 3px;
+    border-radius: 20%;
+    color: honeydew;
+}
+.Icon{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    
+}
