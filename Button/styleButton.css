@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+    margin: 20px;
+
+}
+.page{
+    display: flex;
+}
+.Primary{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+.Primary2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+}
+.button1{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #FF3B30;
+    margin: 10px;
+
+}
+.button1:hover{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #FF3B30;
+    margin: 10px;
+    opacity: 60%;
+
+}
+.button2{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #3b82f6;
+    margin: 10px;
+}
+.button2:hover{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #3b82f6;
+    margin: 10px;
+    opacity: 60%;
+}
+
+.button3{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #9A9A9A;
+    margin: 10px;
+}
+.button3:hover{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #9A9A9A;
+    margin: 10px;
+    opacity: 60%;
+}
+.linkButt{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #9A9A9A;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.linkButt2{
+    padding: 10px;
+    border:none;
+    color: white;
+    background-color: #5dc943;
+    margin: 10px;
+    text-decoration: none;
+}
+.button4{
+    padding: 10px;
+    border:2px solid;
+    color: #FF3B30;
+    background-color: lightgray;
+    border-color: #FF3B30;
+    margin: 10px;
+    font-weight: 600;
+
+}
+.button4:hover{
+    padding: 10px;
+    border:2px solid;
+    color: #FF3B30;
+    background-color: lightgray;
+    border-color: #FF3B30;
+    margin: 10px;
+    font-weight: 600;
+    opacity: 60%;
+
+}
+.button5{
+    padding: 10px;
+    border:2px solid;
+    color: #3b82f6;
+    background-color: lightgray;
+    border-color: #3b82f6;
+    margin: 10px;
+    font-weight: 600;
+}
+.button5:hover{
+    padding: 10px;
+    border:2px solid;
+    color: #3b82f6;
+    background-color: lightgray;
+    border-color: #3b82f6;
+    margin: 10px;
+    font-weight: 600;
+    opacity: 60%;
+}
+
+.button6{
+    padding: 10px;
+    border:2px solid;
+    color: #9A9A9A;
+    background-color: lightgray;
+    border-color: #9A9A9A;
+    margin: 10px;
+    font-weight: 600;
+}
+.button6:hover{
+    padding: 10px;
+    border:2px solid;
+    color: #9A9A9A;
+    background-color: lightgray;
+    border-color: #9A9A9A;
+    margin: 10px;
+    font-weight: 600;
+    opacity: 60%;
+}
+.icon1{
+    background-color: lightgray;
+    border: none;
+}
+.iconfloat{
+    background-color: lightgray;
+    border: none;
+    position: relative; 
+    padding: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 30%;
+
+}
+.iconfloat:focus{
+    transform: scale(1.2);
+}
+.iconfloat2{
+    background-color: whitesmoke;
+    border: none;
+    position: relative; 
+    padding: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 100%;
+
+}
